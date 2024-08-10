@@ -253,7 +253,7 @@ else:win32 {
 DEFINES += REQUIRE_HAVE_PDFIUM
 }
 else:contains(BUILD_ARCH, x86_64) { #Notice this might not work for clang!
-DEFINES += REQUIRE_HAVE_PDFIUM
+
 }
 
 #DEFINES += REQUIRE_ENABLE_CHAT
