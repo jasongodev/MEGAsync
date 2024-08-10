@@ -14,7 +14,7 @@ MultiQFileDialog::MultiQFileDialog(QWidget *parent, const QString &caption, cons
       mMultiSelect(multiSelect),
       mEnableOkButton(false)
 {
-    setOption(QFileDialog::DontUseNativeDialog, false);
+    setOption(QFileDialog::DontUseNativeDialog, true);
 
     if (multiSelect)
     {
